@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Register {
     private static Register register;
-    private HashMap<String, MachineComponent> components = new HashMap<>();
+    private HashMap<String, MachineComponent> components;
 
     public static Register getRegister(){
         if(register == null){
@@ -14,6 +14,9 @@ public class Register {
         return register;
     }
 
+    private Register(){
+        components = new HashMap<>();
+    }
     public void addComponent(String name, MachineComponent mc){
         components.put(name,mc);
     }

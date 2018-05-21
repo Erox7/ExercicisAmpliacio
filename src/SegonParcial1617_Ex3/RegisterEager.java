@@ -7,16 +7,17 @@ import java.util.HashMap;
 
 public class RegisterEager {
     private static final Register INSTANCE = new Register();
-    private HashMap<String, MachineComponent> components = new HashMap<>();
+    private HashMap<String, MachineComponent> components;
 
     private RegisterEager(){
+        components = new HashMap<>();
     }
 
-    private void addComponent(String name, MachineComponent mc){
+    public void addComponent(String name, MachineComponent mc){
         components.put(name,mc);
     }
 
-    private MachineComponent getComponent(String name){
+    public MachineComponent getComponent(String name){
         return components.get(name);
     }
 }
