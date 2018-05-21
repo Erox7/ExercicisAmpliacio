@@ -5,7 +5,7 @@ public abstract class MachineComponent {
 
     public long getId(){
         return this.id;
-    };
+    }
 
     public MachineComponent(long id){
         this.id =id;

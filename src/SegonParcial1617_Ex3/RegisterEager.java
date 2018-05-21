@@ -6,7 +6,7 @@ import sun.security.smartcardio.SunPCSC;
 import java.util.HashMap;
 
 public class RegisterEager {
-    private static final Register INSTANCE = new Register();
+    private static final RegisterEager INSTANCE = new RegisterEager();
     private HashMap<String, MachineComponent> components;
 
     private RegisterEager(){
