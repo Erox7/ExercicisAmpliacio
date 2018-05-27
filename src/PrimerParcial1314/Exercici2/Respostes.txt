@@ -1,0 +1,4 @@
+apartat a) Trenca el principi open-close, ja que si vuy afegir nous tipus de Visualizers/Printers,
+he de modificar el metode visualize(), el if/else.
+
+Apartat b) Faria un factory method, pero no se com s'arreglaria.
