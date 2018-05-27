@@ -10,4 +10,8 @@ public class Circle extends Figure {
     public double getR() {
         return r;
     }
+
+    public void accept(FigureVisitor fv){
+        fv.visit(this);
+    }
 }

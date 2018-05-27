@@ -16,4 +16,8 @@ public class Rectangle extends Figure {
     public double getWidth() {
         return width;
     }
+
+    public void accept(FigureVisitor fv){
+        fv.visit(this);
+    }
 }

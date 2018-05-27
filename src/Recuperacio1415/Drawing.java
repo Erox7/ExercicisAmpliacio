@@ -14,4 +14,8 @@ public class Drawing extends Figure{
     public List<Figure> getFigures() {
         return Collections.unmodifiableList(figures);
     }
+
+    public void accept(FigureVisitor fv){
+        fv.visit(this);
+    }
 }

@@ -14,4 +14,5 @@ public abstract class Figure {
     public double getY() {
         return y;
     }
+    abstract void accept(FigureVisitor fv);
 }
