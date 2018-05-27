@@ -14,7 +14,7 @@ public class Leaf extends Component {
     }
 
     public void setVisited(){
-        super.isVisited = true;
+        this.isVisited = true;
     }
 
     public void accept(ComponentVisitor c) {
