@@ -1,12 +1,12 @@
 package SegonParcial1516_Ex1i2;
 
-public class CountVisitor implements  ComponentVisitor{
+public class SumVisitor implements  ComponentVisitor{
     private int counter;
 
     @Override
     public void visit(Leaf leaf) {
         if(!leaf.isVisited) {
-            counter += 1;
+            counter += leaf.getInfo();
         }
     }
 
@@ -23,3 +23,4 @@ public class CountVisitor implements  ComponentVisitor{
         return this.counter;
     }
 }
+

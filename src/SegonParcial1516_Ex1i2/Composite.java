@@ -18,6 +18,10 @@ public class Composite extends Component {
         return components;
     }
 
+    public void setVisited(){
+        super.isVisited = true;
+    }
+
     public void accept(ComponentVisitor c) {
         c.visit(this);
     }

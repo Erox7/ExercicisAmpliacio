@@ -1,6 +1,7 @@
 package SegonParcial1516_Ex1i2;
 
 public class Leaf extends Component {
+
     private int info;
 
     public Leaf(int info){
@@ -10,6 +11,10 @@ public class Leaf extends Component {
 
     public int getInfo() {
         return info;
+    }
+
+    public void setVisited(){
+        super.isVisited = true;
     }
 
     public void accept(ComponentVisitor c) {
