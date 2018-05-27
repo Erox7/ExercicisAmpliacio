@@ -1,4 +1,4 @@
-package SegonParcial1516_Ex3;
+package SegonParcial1516.SegonParcial1516_Ex3;
 
 public abstract class Figure {
     protected double x,y;

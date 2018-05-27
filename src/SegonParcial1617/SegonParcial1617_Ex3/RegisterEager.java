@@ -1,7 +1,5 @@
-package SegonParcial1617_Ex3;
+package SegonParcial1617.SegonParcial1617_Ex3;
 
-
-import sun.security.smartcardio.SunPCSC;
 
 import java.util.HashMap;
 

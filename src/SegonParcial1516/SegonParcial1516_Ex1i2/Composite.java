@@ -1,9 +1,7 @@
-package SegonParcial1516_Ex1i2;
+package SegonParcial1516.SegonParcial1516_Ex1i2;
 
 import com.sun.javafx.UnmodifiableArrayList;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Composite extends Component {

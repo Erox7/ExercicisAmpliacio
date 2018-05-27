@@ -1,12 +1,12 @@
-package SegonParcial1516_Ex1i2;
+package SegonParcial1516.SegonParcial1516_Ex1i2;
 
-public abstract class GenericVisitor implements  ComponentVisitor{
-    protected int counter;
+public class SumVisitor implements  ComponentVisitor{
+    private int counter;
 
     @Override
     public void visit(Leaf leaf) {
         if(!leaf.isVisited) {
-            visitOperation(leaf);
+            counter += leaf.getInfo();
         }
     }
 
@@ -22,6 +22,5 @@ public abstract class GenericVisitor implements  ComponentVisitor{
     public int getCounter(){
         return this.counter;
     }
-
-    public abstract void visitOperation(Leaf leaf);
 }
+

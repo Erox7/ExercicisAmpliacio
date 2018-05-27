@@ -1,7 +1,6 @@
-package SegonParcial1617_Ex3;
+package SegonParcial1617.SegonParcial1617_Ex3;
 
 import java.util.HashMap;
-import java.util.List;
 
 public class Register {
     private static Register register;

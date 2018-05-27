@@ -1,4 +1,4 @@
-package SegonParcial1516_Ex1i2;
+package SegonParcial1516.SegonParcial1516_Ex1i2;
 
 public class Leaf extends Component {
 

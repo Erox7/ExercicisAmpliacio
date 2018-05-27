@@ -1,4 +1,4 @@
-package SegonParcial1617_Ex2;
+package SegonParcial1617.SegonParcial1617_Ex2;
 
 public abstract class MachineComponent {
     protected long id;

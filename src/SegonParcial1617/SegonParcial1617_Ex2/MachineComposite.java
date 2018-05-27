@@ -1,4 +1,4 @@
-package SegonParcial1617_Ex2;
+package SegonParcial1617.SegonParcial1617_Ex2;
 
 import java.util.ArrayList;
 import java.util.List;
