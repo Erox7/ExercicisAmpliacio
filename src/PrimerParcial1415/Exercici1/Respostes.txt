@@ -1,0 +1,10 @@
+a) Si fem que Group estengui AbstractTableModel,
+quin/s problema/es de disseny estem creant? En què es manifesten aquest problemes?
+
+-> Estarem Barrejant la capa de dades i la de interficie grafica.
+ Seria el mateix grup el que s'ocupa de ferho tot.
+
+b) Patro i com resol aquest problema?
+
+Adaptador, fem una clase que s'ocupi de fer la feina grafica agafant les dades del domini.
+La clase grup nomes guardara dades.
