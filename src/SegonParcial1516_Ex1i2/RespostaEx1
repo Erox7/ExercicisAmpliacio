@@ -1,0 +1,4 @@
+-Que es un ResultSet en JDBC? Què permet fer?
+Es una interficie que permet l'emmagatzemament dels resultats de una consulta a BDD.
+
+-Quin inconvenient té l'estratègia d'una taula per jerarquia en JPA?
