@@ -1,0 +1,9 @@
+-> Quins patrons esta fent servir aquest disseny?
+El metode plantilla
+
+-> Quins problemes li veieu al disseny? Quin principi esta violant?
+En que es manifesten aquest problemes?
+Que la clase recordsProcessors fa massa coses, socupa de la gestio de dades i de la codificació.
+Fent una altra clase que s'ocupi de la codificació, per exemple.
+
+-> Com ho solucionariem?
